@@ -1,9 +1,9 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-import { globalStyles } from './src/common'
+import { globalStyles } from 'common'
 
-import LandingScreen from './src/scenes/Landing'
+import LandingScreen from 'scenes/Landing'
 
 export default function App () {
   return (
