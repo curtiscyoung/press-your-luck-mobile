@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import React, { Component } from 'react'
+import { View, Text } from 'react-native'
 
 export default class LandingScreen extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
     this.state = {
-    };
+    }
   }
 
-  render() {
+  render () {
     return (
       <View>
         <Text> Landing Screen </Text>
       </View>
-    );
+    )
   }
 }
