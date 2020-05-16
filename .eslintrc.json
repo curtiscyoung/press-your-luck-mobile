@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "plugins": [
+      "react",
+      "extra-rules",
+      "standard",
+      "import"
+  ],
+  "extends": [
+      "standard"
+  ],
+  "rules": {
+      "extra-rules/no-commented-out-code": "warn",
+      "no-mixed-operators": "off",
+      "no-unused-vars": "off",
+      "lines-between-class-members": 1
+  }
+}
